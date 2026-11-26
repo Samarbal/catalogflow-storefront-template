@@ -1,0 +1,31 @@
+{
+  "name": "figma-make-app",
+  "private": true,
+  "version": "1.0.0",
+  "packageManager": "pnpm@10.34.3",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "oxfmt src/App.tsx src/config/store.ts src/content/copy.ts src/data/products.ts src/index.css src/lib",
+    "format:check": "oxfmt --check src/App.tsx src/config/store.ts src/content/copy.ts src/data/products.ts src/index.css src/lib",
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test src/lib/*.test.ts"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^6.0.0",
+    "tailwindcss": "^4.0.0",
+    "@tailwindcss/vite": "^4.0.0",
+    "oxfmt": "^0.76.0",
+    "typescript": "^5.7.0",
+    "vite": "^8.1.7"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "title": "LUNA Parfums | Fictional Demo Storefront",
+  "description": "Fictional bilingual perfume storefront demonstration with an optional WhatsApp draft. No real purchases are accepted.",
+  "language": "en",
+  "icons": { "icon": "/favicon.svg" },
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
